@@ -28,7 +28,7 @@ int main() {
 
     // Menampilkan panjang array
     int panjangArray = sizeof(A) / sizeof(A[0][0]);
-    cout << "\nPanjang array A: " << panjangArray << "\n";
+    cout << "\nPanjang array A: " << panjangArray << endl;
 
     return 0;
 }
